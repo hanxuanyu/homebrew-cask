@@ -11,7 +11,5 @@ cask "bingpaper-desktop" do
 
   uninstall quit: "com.hxuanyu.bingpaperdesktop"
 
-  zap trash: [
-    "~/Library/Application Support/BingPaperDesktop",
-  ]
+  zap trash: "~/Library/Application Support/BingPaperDesktop"
 end
